@@ -1,21 +1,27 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
+import { Fade, Rotate } from 'react-awesome-reveal';
 import data from '../yourdata';
 import Social from './social.js';
-
-
+import './animations.css'
 class Header extends Component {
     state = {}
 
     render() {
         return (<div>
-        <h1 className='heading-background'>CREATIVE</h1>
+        <Rotate cascade direction={"bottom-left"} fraction={1}>
+            {/* className='animated rotateInDownLeft leaf' */}
+            <img className= 'leaf' src='https://www.dl.dropboxusercontent.com/s/jpjvesl250s19w0/leaf2.png'></img>
+
+        </Rotate>
+
+        <h1 className='heading-background'>{data.headerText}</h1>
             <header>
                 <h1>
-                    <Fade bottom cascade>
-                        </Fade></h1>
+                    </h1>
             </header>
-            <Fade bottom>
+
+            <Fade>
+
             <p className='header-title'>
             {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
             {data.headerTagline[2]}

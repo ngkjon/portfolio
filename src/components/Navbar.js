@@ -10,7 +10,7 @@ class Navbar extends Component {
     render() { 
         return (<nav>
             <ul>
-                <li><Link
+                {/* <li><Link
                     className='link'
                     activeClass="active"
                     to="Home"
@@ -19,7 +19,7 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                     onClick={this.scrollToTop}
-                ><img class='jnlogo' src={logo}></img></Link></li>
+                ><img class='jnlogo' src={logo}></img></Link></li> */}
                 <li><Link
                     className='link'
                     activeClass="active"

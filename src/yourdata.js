@@ -3,39 +3,48 @@ export default
         //(Please Do Not Remove The comma(,) after every variable)
         //Change The Website Template
         name :'jonathan ng',
-        headerTagline: [//Line 1 For Header
-                        "Hi! I'm Jonathan.",
+        headerTagline: [//Line 1 For Header👋
+                        "hi! i'm jonathan",
                         //Line 2 For Header
-                        'design | UI/UX | devops',
-                        //Line 3 For Header
-                        'from Canada'
-    ],
+                        'a ui/ux designer && devops engineer',
+                        //Line 3 For Header🇨🇦
+                        'from toronto 🇨🇦'],
+        headerText :'',
         //Contact Email
         contactEmail:'ngkjon@gmail.com',
         // Add Your About Text Here
-        abouttext: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        abouttext: "just a student with a passion for design and software. my hobbies include fishing, music, photography and videography.",
         // aboutImage:'https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
         aboutImage: '../resources/pic1.jpg',
         //Change This To Hide The Image of About Section (True Or False)
-       ShowAboutImage:true,//true or false (Change Here)
+       ShowAboutImage:false,//true or false (Change Here)
        // Change Projects Here 
        projects:[
+            {
+                id: 1,//DO NOT CHANGE THIS (Please)😅
+                title: 'Daily UI Challenge',
+                service: 'Design',
+                imageSrc: "https://www.dl.dropboxusercontent.com/s/u3b5lbkk7zkdzji/Daily%20UI%20001%20-%20sign%20up%20modal.png",
+                url: 'https://dribbble.com/ngkjon'
+            },
            {
-            id: 1,//DO NOT CHANGE THIS (Please)😅
-            title:'Project One', //Project Title - Add Your Project Title Here
-             service:'UI/UX Design', // Add Your Service Type Here
+            id: 2,//DO NOT CHANGE THIS (Please)😅
+            title:'HQ Trivia Assist', //Project Title - Add Your Project Title Here
+             service:'Software Project', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
-             imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+             imageSrc:"https://live.staticflickr.com/65535/49489487618_0fda0ddd19_b.jpg",
              //Project URL - Add Your Project Url Here
              url:'http://ngkjon.github.io/'
-            },
-            {
-                id: 2,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Two',
-                service: 'Website Development',
-                imageSrc: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                url: 'http://ngkjon.github.io/'
             }
+            // ,
+            // {
+            //     id: 3,//DO NOT CHANGE THIS (Please)😅
+            //     title: 'Spotify Artist Page Layout',
+            //     service: 'Case Study',
+            //     imageSrc: "https://live.staticflickr.com/65535/49489575628_2445264aa5_b.jpg",
+            //     url: 'http://ngkjon.github.io/'
+            // },
+            
         //     ,
         //     { 
         //         id: 3,//DO NOT CHANGE THIS (Please)😅
