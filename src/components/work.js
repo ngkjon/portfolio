@@ -6,11 +6,11 @@ import data from '../yourdata';
 class Work extends Component {
     state = {  }
     render() { 
-        return (<div>
+        return (<div className='workblock'>
             
         <h1 className='heading'>
         <Fade bottom cascade delay={200} duration={200}>projects</Fade></h1>
-        <Fade cascade duration={2000}>
+        <Fade bottom cascade duration={2000}>
 
         <div className='work-content'>
             

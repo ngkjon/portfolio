@@ -4,7 +4,7 @@ export default
         //Change The Website Template
         name :'jonathan ng',
         headerTagline: [//Line 1 For Header👋
-                        "hi! i'm jonathan",
+                        "hi! i'm jonathan,",
                         //Line 2 For Header
                         'a ui/ux designer && devops engineer',
                         //Line 3 For Header🇨🇦
@@ -13,11 +13,11 @@ export default
         //Contact Email
         contactEmail:'ngkjon@gmail.com',
         // Add Your About Text Here
-        abouttext: "just a student with a passion for design and software. my hobbies include fishing, music, photography and videography.",
+        abouttext: "just a student with a passion for design and software. my hobbies include fishing, cooking, music, photography and videography.",
         // aboutImage:'https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
-        aboutImage: '../resources/pic1.jpg',
+        aboutImage: 'https://www.dl.dropboxusercontent.com/s/uqm5kb0fhtqnnvo/about.png?dl=0',
         //Change This To Hide The Image of About Section (True Or False)
-       ShowAboutImage:false,//true or false (Change Here)
+       ShowAboutImage:true,//true or false (Change Here)
        // Change Projects Here 
        projects:[
             {
@@ -34,7 +34,7 @@ export default
             //Project Image - Add Your Project Image Here
              imageSrc:"https://live.staticflickr.com/65535/49489487618_0fda0ddd19_b.jpg",
              //Project URL - Add Your Project Url Here
-             url:'http://ngkjon.github.io/'
+             url:'https://github.com/ngkjon/trivia'
             }
             // ,
             // {
