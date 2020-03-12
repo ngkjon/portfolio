@@ -13,9 +13,9 @@ export default
         //Contact Email
         contactEmail:'ngkjon@gmail.com',
         // Add Your About Text Here
-        abouttext: "just a student with a passion for design and software. my hobbies include fishing, cooking, music, photography and videography.",
+        abouttext: "i'm just a student with a passion for design and software. my hobbies include fishing, cooking, music, photography and videography.",
         // aboutImage:'https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
-        aboutImage: 'https://www.dl.dropboxusercontent.com/s/uqm5kb0fhtqnnvo/about.png?dl=0',
+        aboutImage: 'https://www.dl.dropboxusercontent.com/s/x7icg1x5k2gpzhw/meabout.svg?dl=0',
         //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
        // Change Projects Here 
@@ -27,8 +27,17 @@ export default
                 imageSrc: "https://www.dl.dropboxusercontent.com/s/u3b5lbkk7zkdzji/Daily%20UI%20001%20-%20sign%20up%20modal.png",
                 url: 'https://dribbble.com/ngkjon'
             },
+            {
+             id: 2,//DO NOT CHANGE THIS (Please)😅
+             title:'Train Cloud Monitoring', //Project Title - Add Your Project Title Here
+              service:'Case Study', // Add Your Service Type Here
+             //Project Image - Add Your Project Image Here
+              imageSrc:"https://live.staticflickr.com/65535/49489487618_0fda0ddd19_b.jpg",
+              //Project URL - Add Your Project Url Here
+              url:'https://github.com/ngkjon/trivia'
+             },
            {
-            id: 2,//DO NOT CHANGE THIS (Please)😅
+            id: 3,//DO NOT CHANGE THIS (Please)😅
             title:'HQ Trivia Assist', //Project Title - Add Your Project Title Here
              service:'Software Project', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here

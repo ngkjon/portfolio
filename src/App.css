@@ -7,11 +7,13 @@
 body{
   font-size: 16px;
   background: #1c1c1c;
-  font-family: 'MyFont';
+  font-family: 'Montserrat', sans-serif;
 
   /* font-family: 'Open Sans', sans-serif; */
   overflow-x: hidden;
   z-index: 1;
+  text-decoration: none !important;
+  opacity:90%;
 }
 .leaf{
   position:absolute;
@@ -26,8 +28,15 @@ body{
   line-height: 28px;
 }
 /* stuff here */
-h1, p, span{
+h1, p, a,span{
   color:white;
+  text-decoration: none;
+}
+a:hover{
+  opacity:0.4;
+}
+.retext{
+  font-size: 16px !important;
 }
 #dr:hover, #gh:hover, #ig:hover, #li:hover, #me:hover, #re:hover
 {
@@ -143,6 +152,7 @@ nav li .link{
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
+
 li .link:hover{
   opacity: 1;
 }
@@ -166,13 +176,17 @@ li .link:hover{
 }
 .header-title button a{
   /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+
   color:black;
   text-decoration: none;
 }
 .header-title{
   position: relative;
-  /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'MyFont';
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'MyFont'; */
+  /* font-family: 'Open Sans', sans-serif; */
+
   font-size: 3em;
   text-align: left;
   top:2em;
@@ -198,6 +212,7 @@ li .link:hover{
 }
 .about img{
   margin-left: 10em;
+  margin-top: 5em;
   /* margin-right:5; */
   max-width: 1000px;
   height: 500px;
@@ -254,8 +269,9 @@ height: 20em;
   margin-left: 0;
 }
 .contact li a{
-  text-decoration: none;
   color:white;
+  text-decoration: none !important;
+
 }
 .footer{
   position: relative;
@@ -264,7 +280,7 @@ height: 20em;
 }
 .footer a{
   text-decoration: none;
-  color:#2c59fb;
+  /* color:#2c59fb; */
 }
 
 
@@ -297,7 +313,7 @@ nav{
       top:-30em;
 }
 .about img{
-  display: none
+  display: none;
 }
 .about-content{
   left:2em;

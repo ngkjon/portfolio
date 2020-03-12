@@ -48,6 +48,12 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                 >projects</Link></li>
+                <li><a
+                    className='link'
+                    activeClass="active"
+                    href="https://www.dropbox.com/s/uhxfgsk108odrl5/design3B.pdf"
+                    target="_blank"
+                >resume</a></li>
                 {/* <li><Link
                     className='link'
                     activeClass="active"
