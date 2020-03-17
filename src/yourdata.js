@@ -24,24 +24,33 @@ export default
                 id: 1,//DO NOT CHANGE THIS (Please)😅
                 title: 'Daily UI Challenge',
                 service: 'Design',
-                imageSrc: "https://www.dl.dropboxusercontent.com/s/u3b5lbkk7zkdzji/Daily%20UI%20001%20-%20sign%20up%20modal.png",
+                imageSrc: "https://www.dl.dropboxusercontent.com/s/0gt1eeaoew5hw82/dailyui.png?dl=0",
                 url: 'https://dribbble.com/ngkjon'
             },
             {
              id: 2,//DO NOT CHANGE THIS (Please)😅
+             title:'Building an Online Portfolio', //Project Title - Add Your Project Title Here
+              service:'Case Study', // Add Your Service Type Here
+             //Project Image - Add Your Project Image Here
+              imageSrc:"https://www.dl.dropboxusercontent.com/s/ty655vx476po0fv/trains.png?dl=0",
+              //Project URL - Add Your Project Url Here
+              url:'https://www.dropbox.com/s/rqj6bpiw8ln2lic/URP%20-%20Personas.pdf?dl=0'
+             },
+            {
+             id: 3,//DO NOT CHANGE THIS (Please)😅
              title:'Train Cloud Monitoring', //Project Title - Add Your Project Title Here
               service:'Case Study', // Add Your Service Type Here
              //Project Image - Add Your Project Image Here
-              imageSrc:"https://live.staticflickr.com/65535/49489487618_0fda0ddd19_b.jpg",
+              imageSrc:"https://www.dl.dropboxusercontent.com/s/ty655vx476po0fv/trains.png?dl=0",
               //Project URL - Add Your Project Url Here
-              url:'https://github.com/ngkjon/trivia'
+              url:'https://www.dropbox.com/s/1s368cvq4mlw6hb/WKRPT300.pdf?dl=0'
              },
            {
-            id: 3,//DO NOT CHANGE THIS (Please)😅
+            id: 4,//DO NOT CHANGE THIS (Please)😅
             title:'HQ Trivia Assist', //Project Title - Add Your Project Title Here
-             service:'Software Project', // Add Your Service Type Here
+             service:'Software', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
-             imageSrc:"https://live.staticflickr.com/65535/49489487618_0fda0ddd19_b.jpg",
+             imageSrc:"https://www.dl.dropboxusercontent.com/s/tzkqers8i3tsf6u/trivia.png?dl=0",
              //Project URL - Add Your Project Url Here
              url:'https://github.com/ngkjon/trivia'
             }
