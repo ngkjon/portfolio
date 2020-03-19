@@ -22,24 +22,27 @@ export default
        projects:[
             {
                 id: 1,//DO NOT CHANGE THIS (Please)😅
-                title: 'Daily UI Challenge',
-                service: 'Design',
+                title: 'daily ui challenge',
+                service: 'design',
+                page:'daily',
                 imageSrc: "https://www.dl.dropboxusercontent.com/s/0gt1eeaoew5hw82/dailyui.png?dl=0",
                 url: 'https://dribbble.com/ngkjon'
             },
             {
              id: 2,//DO NOT CHANGE THIS (Please)😅
-             title:'Building an Online Portfolio', //Project Title - Add Your Project Title Here
-              service:'Case Study', // Add Your Service Type Here
+             title:'user research personas', //Project Title - Add Your Project Title Here
+              service:'case study', // Add Your Service Type Here
+              page:'personas',
              //Project Image - Add Your Project Image Here
-              imageSrc:"https://www.dl.dropboxusercontent.com/s/ty655vx476po0fv/trains.png?dl=0",
+              imageSrc:"https://www.dl.dropboxusercontent.com/s/6bl7vjarr2df7fe/persona.png?dl=0",
               //Project URL - Add Your Project Url Here
               url:'https://www.dropbox.com/s/rqj6bpiw8ln2lic/URP%20-%20Personas.pdf?dl=0'
              },
             {
              id: 3,//DO NOT CHANGE THIS (Please)😅
-             title:'Train Cloud Monitoring', //Project Title - Add Your Project Title Here
-              service:'Case Study', // Add Your Service Type Here
+             title:'train telemetry', //Project Title - Add Your Project Title Here
+              service:'case study', // Add Your Service Type Here
+              page:'train',
              //Project Image - Add Your Project Image Here
               imageSrc:"https://www.dl.dropboxusercontent.com/s/ty655vx476po0fv/trains.png?dl=0",
               //Project URL - Add Your Project Url Here
@@ -47,8 +50,9 @@ export default
              },
            {
             id: 4,//DO NOT CHANGE THIS (Please)😅
-            title:'HQ Trivia Assist', //Project Title - Add Your Project Title Here
-             service:'Software', // Add Your Service Type Here
+            title:'hq trivia assist', //Project Title - Add Your Project Title Here
+             service:'software', // Add Your Service Type Here
+             page:'trivia',
             //Project Image - Add Your Project Image Here
              imageSrc:"https://www.dl.dropboxusercontent.com/s/tzkqers8i3tsf6u/trivia.png?dl=0",
              //Project URL - Add Your Project Url Here
