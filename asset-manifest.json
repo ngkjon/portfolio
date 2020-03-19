@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.98fbd3e9.chunk.css",
-    "main.js": "/portfolio/static/js/main.b6f9980c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b6f9980c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8599d23d.chunk.css",
+    "main.js": "/portfolio/static/js/main.3761ce29.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3761ce29.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.84fc0d19.chunk.js": "/portfolio/static/js/2.84fc0d19.chunk.js",
-    "static/js/2.84fc0d19.chunk.js.map": "/portfolio/static/js/2.84fc0d19.chunk.js.map",
+    "static/js/2.f9d423e3.chunk.js": "/portfolio/static/js/2.f9d423e3.chunk.js",
+    "static/js/2.f9d423e3.chunk.js.map": "/portfolio/static/js/2.f9d423e3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9a574d4b2f46d3bfbc799b15a6b4861a.js": "/portfolio/precache-manifest.9a574d4b2f46d3bfbc799b15a6b4861a.js",
+    "precache-manifest.20fae3a5dc8dcb0c4d6722deecc3a69b.js": "/portfolio/precache-manifest.20fae3a5dc8dcb0c4d6722deecc3a69b.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.98fbd3e9.chunk.css.map": "/portfolio/static/css/main.98fbd3e9.chunk.css.map",
-    "static/media/App.css": "/portfolio/static/media/p22johnston.d1378c96.ttf"
+    "static/css/main.8599d23d.chunk.css.map": "/portfolio/static/css/main.8599d23d.chunk.css.map",
+    "static/media/001.png": "/portfolio/static/media/001.cfe764b1.png",
+    "static/media/002.png": "/portfolio/static/media/002.5016f26c.png",
+    "static/media/003.png": "/portfolio/static/media/003.92880275.png",
+    "static/media/004.gif": "/portfolio/static/media/004.1278d3d8.gif",
+    "static/media/005.png": "/portfolio/static/media/005.4688086a.png",
+    "static/media/dailyui.png": "/portfolio/static/media/dailyui.189a0955.png",
+    "static/media/leaf.svg": "/portfolio/static/media/leaf.d7848fab.svg",
+    "static/media/meabout.svg": "/portfolio/static/media/meabout.2e9595a8.svg",
+    "static/media/mindmap.jpg": "/portfolio/static/media/mindmap.3df5ba50.jpg",
+    "static/media/App.css": "/portfolio/static/media/p22johnston.d1378c96.ttf",
+    "static/media/persona.png": "/portfolio/static/media/persona.bb80f1aa.png",
+    "static/media/stakeholder.jpg": "/portfolio/static/media/stakeholder.0f75727a.jpg",
+    "static/media/trains.png": "/portfolio/static/media/trains.b33670ed.png",
+    "static/media/trivia.png": "/portfolio/static/media/trivia.b38c73a3.png"
   }
 }
