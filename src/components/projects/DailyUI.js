@@ -4,9 +4,12 @@ import { Fade } from 'react-awesome-reveal';
 import data from './dailydata';
 import ReturnNavbar from './ReturnNavbar'
 
-class DailyUI extends Component {
-    state = {  }
-    render() { 
+// class DailyUI extends Component {
+    const DailyUI = () => {
+    React.useEffect(() => { window.scrollTo(0, 0); }, []);
+
+    // render() { 
+
         return (
         <div className='work day'>
         <ReturnNavbar/>
@@ -26,7 +29,7 @@ class DailyUI extends Component {
         </div>
                 </Fade>
         </div>  );
-    }
+    // }
 }
  
 export default DailyUI;

@@ -9,7 +9,10 @@ import Navbar from './Navbar'
 
 
 const Main = () => {
+    React.useEffect(() => { window.scrollTo(0, 0); }, []);
+
     return (
+      
         <div className="App">
         <Navbar></Navbar>
         <div className="App-header">

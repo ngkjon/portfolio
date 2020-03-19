@@ -4,13 +4,15 @@ import data from '../yourdata';
 import Social from './social.js';
 import VizImg from './VizImg.js';
 import './animations.css'
+import leaf from '../resources/leaf.svg';
+
 class Header extends Component {
     state = {}
 
     render() {
         return (<div>
         <Rotate cascade direction={"bottom-left"} duration={800}>
-        <VizImg className= 'leaf' src='https://www.dl.dropboxusercontent.com/s/tn5p1b9nohwwnga/leaf.svg'></VizImg>
+        <VizImg className= 'leaf' src={leaf}></VizImg>
         </Rotate>
 
         <h1 className='heading-background'>{data.headerText}</h1>

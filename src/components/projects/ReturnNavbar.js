@@ -13,7 +13,19 @@ class ReturnNavbar extends Component {
             <ul>
 
                 <li>
-                 <NavLink to="/">home</NavLink></li>
+                {/* <Link
+                    className='link'
+                    activeClass="active"
+                    to="Home"
+                    spy={true}
+                    smooth={true}
+                    // offset={-70}
+                    duration={0}
+                    onClick={this.scrollToTop}
+                > */}
+                 <NavLink to="/">home</NavLink>
+                 {/* </Link> */}
+                 </li>
                 
             </ul>
         </nav> );

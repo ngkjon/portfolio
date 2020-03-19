@@ -4,13 +4,16 @@
   font-family: 'MyFont';
   src: local('MyFont'), url(./resources/p22johnston.ttf) format('truetype');
 }
+.mainpage{
+  /* overflow-x: hidden; */
+  overflow:hidden;
+}
 body{
   font-size: 16px;
   background: #1c1c1c;
   font-family: 'Montserrat', sans-serif;
 
   /* font-family: 'Open Sans', sans-serif; */
-  overflow-x: hidden;
   z-index: 1;
   text-decoration: none !important;
 }
@@ -114,11 +117,7 @@ a:hover{
   padding: 5px;
 
 }
-.jnlogo
-{
-  height: 1em;  
-  /* transform: translateY(-20%); */
-}
+
 /* stuff end */
 
 
@@ -169,7 +168,9 @@ margin-right: 50em;
 }
 nav{
   position:fixed;
-  left:60em;
+  /* left:60em; */
+  right: 15em;
+  left:auto;
   top:6em;
 z-index: 100;
   /* background-color: rgba(255,255,255,0.2); */
@@ -254,6 +255,7 @@ li .link:hover{
   max-width: 1000px;
   height: 500px;
 }
+/*Projects Section*/
 .work{
   position: relative;
   display: flex;
@@ -271,6 +273,10 @@ li .link:hover{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 2em;
+}
+.work-content, .workblock{
+  margin-bottom:5em;
+  padding-bottom:20em;
 }
 
 .project img{

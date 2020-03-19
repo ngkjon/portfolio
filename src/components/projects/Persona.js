@@ -2,19 +2,24 @@
 import React from 'react';
 import '../../App.css';
 import { Fade } from 'react-awesome-reveal';
-
+// import stakeholder from '../../resources/stakeholder.jpg'
+// import mindmap from '../../resources/mindmap.jpg'
+// import persona from '../../resources/persona.png'
+import {stakeholder, mindmap, persona} from '../../assets'
 
 import ReturnNavbar from './ReturnNavbar'
 
 
-const Train = () => {
+const Persona = () => {
+        React.useEffect(() => { window.scrollTo(0, 0); }, []);
+
     return (
         <div className="projbody">
         <ReturnNavbar/>
         <h1 className='heading'>
         <Fade bottom cascade delay={200} duration={200}>user research personas</Fade></h1>
         <Fade bottom cascade duration={2000}></Fade>
-        <img src='https://www.dl.dropboxusercontent.com/s/6bl7vjarr2df7fe/persona.png?dl=0'></img>
+        <img src={persona}></img>
         
         <Fade bottom cascade delay={200} duration={200}><h2>background</h2>
         <p>as a student thinking about looking for co-ops and also future full-time employment opportunities, i needed a public-viewable place to centralize all my work in addition to storing any resources deemed fit to present to future employers as well as for myself as more and more jobs require some way to validate the claims made by the applicant in resumés.</p>
@@ -38,7 +43,7 @@ const Train = () => {
         
         <Fade bottom cascade delay={200} duration={200}><h2>stakeholder map</h2>
         <p>a stakeholder map is used to consolidate and communicate key players in the design in which we build upon later through user research. as we move along this project and stakeholders and interactions between them are developed we may iterate on this and switch to a more web-like format to clearly show connections between the constituents.</p>
-        <img src='https://www.dl.dropboxusercontent.com/s/163h2as2k0jhpdo/Screen%20Shot%202020-02-16%20at%201.48.44%20AM.jpg?dl=0'></img>
+        <img src={stakeholder}></img>
         <p>although a relatively simple scope at face value (just the two primary users), upon re-evaluating the situation i was able to draw out more potential stakeholders and players in the scenario and get a better picture of types of users that i may want to design for. 
 by clearly organizing primary, secondary and tertiary users, one can tell at a glance to what stakes a user holds to the scenario.
 with this format connections between entities are not drawn explicitly, which may be less effective when wanting to group some users together to design for a user experience tailored to them. an example of this is if i wanted to share my portfolio publicly instead of sending it directly to contacts, i would design an experience for employers and companies on a web page and share the link via job posting sites and on application web forms. </p>
@@ -47,7 +52,7 @@ with this format connections between entities are not drawn explicitly, which ma
         <Fade bottom cascade delay={200} duration={200}><h2>mind-mapping</h2>
         <p>mind-mapping is a way to visually organize information based on association of concepts with the ability to capture hierarchical relationships between ideas.[danny ho w02]
 the workshop with danny ho (week 2) provided a great template to build this portfolio scenario as it focused on mind-mapping the coop process for a design student.</p>
-        <img src='https://www.dl.dropboxusercontent.com/s/ge3ewiqo8jkjy1r/Screen%20Shot%202020-01-15%20at%2011.37.00%20AM.jpg?dl=0'></img>
+        <img src={mindmap}></img>
         <p>the stakeholder map divided our users into primary, secondary and tertiary. then we took our two primary users and created a mind map to lay out an organized hierarchy of components pertaining to our two primary users. by filling out the mind map we can observe thinking patterns and how certain items get mentally organized. for example we can see that the mind map of the recruiter largely focuses on the application package which may suggest that this is potentially a key focus point in the user journey of the recruiter. a downfall of the mind maps is that it can get cluttered with ideas easily and in the ideation stage it is hard to organize and think of ideas as you go. i would recommend a similar approach to the workshop where individuals work amongst themselves to create a mind map and then coming together to view everyone’s different interpretations and hierarchies and then from there start drawing out a summarized mind map.</p>
         </Fade>
 
@@ -113,4 +118,4 @@ this approach was different from fly on the wall in that instead of taking a “
 //   );
 // }
 
-export default Train;
+export default Persona;

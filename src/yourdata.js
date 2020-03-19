@@ -1,3 +1,5 @@
+import {about,train,trivia,persona,dailyui} from './assets';
+
 export default
     {
         //(Please Do Not Remove The comma(,) after every variable)
@@ -15,7 +17,7 @@ export default
         // Add Your About Text Here
         abouttext: "i'm just a student with a passion for design and software. my hobbies include fishing, cooking, music, photography and videography.",
         // aboutImage:'https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
-        aboutImage: 'https://www.dl.dropboxusercontent.com/s/x7icg1x5k2gpzhw/meabout.svg?dl=0',
+        aboutImage: about,
         //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
        // Change Projects Here 
@@ -25,7 +27,7 @@ export default
                 title: 'daily ui challenge',
                 service: 'design',
                 page:'daily',
-                imageSrc: "https://www.dl.dropboxusercontent.com/s/0gt1eeaoew5hw82/dailyui.png?dl=0",
+                imageSrc: dailyui,
                 url: 'https://dribbble.com/ngkjon'
             },
             {
@@ -34,7 +36,7 @@ export default
               service:'case study', // Add Your Service Type Here
               page:'personas',
              //Project Image - Add Your Project Image Here
-              imageSrc:"https://www.dl.dropboxusercontent.com/s/6bl7vjarr2df7fe/persona.png?dl=0",
+              imageSrc: persona,
               //Project URL - Add Your Project Url Here
               url:'https://www.dropbox.com/s/rqj6bpiw8ln2lic/URP%20-%20Personas.pdf?dl=0'
              },
@@ -44,7 +46,7 @@ export default
               service:'case study', // Add Your Service Type Here
               page:'train',
              //Project Image - Add Your Project Image Here
-              imageSrc:"https://www.dl.dropboxusercontent.com/s/ty655vx476po0fv/trains.png?dl=0",
+              imageSrc: train,
               //Project URL - Add Your Project Url Here
               url:'https://www.dropbox.com/s/1s368cvq4mlw6hb/WKRPT300.pdf?dl=0'
              },
@@ -54,7 +56,7 @@ export default
              service:'software', // Add Your Service Type Here
              page:'trivia',
             //Project Image - Add Your Project Image Here
-             imageSrc:"https://www.dl.dropboxusercontent.com/s/tzkqers8i3tsf6u/trivia.png?dl=0",
+             imageSrc: trivia,
              //Project URL - Add Your Project Url Here
              url:'https://github.com/ngkjon/trivia'
             }

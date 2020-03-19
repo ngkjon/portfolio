@@ -17,9 +17,8 @@ import Trivia from './components/projects/Trivia'
 
 function App() {
   return (
-    <body>
     <BrowserRouter>
-        <div>
+        <div className="mainpage">
           {/* <Navbar /> */}
             <Switch>
              <Route path="/" component={Main} exact/>
@@ -36,7 +35,6 @@ function App() {
            </Switch>
         </div> 
       </BrowserRouter>
-      </body>
   );
 }
 
