@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79af10c842203ff3d435ed97e48cfacd",
+    "revision": "353224a9a4d791dad895baaebd82d3ef",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e9ebb76c40f34d4d9b9a",
+    "revision": "674988989aee1c7f3989",
     "url": "/portfolio/static/css/main.8599d23d.chunk.css"
   },
   {
-    "revision": "0b20ae2c92c24a282c7c",
-    "url": "/portfolio/static/js/2.f9d423e3.chunk.js"
+    "revision": "45168bb5526f2c2588fb",
+    "url": "/portfolio/static/js/2.ffc550c1.chunk.js"
   },
   {
-    "revision": "e9ebb76c40f34d4d9b9a",
-    "url": "/portfolio/static/js/main.3761ce29.chunk.js"
+    "revision": "674988989aee1c7f3989",
+    "url": "/portfolio/static/js/main.141c96a1.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "189a0955799e4d42261fd7f608905459",
     "url": "/portfolio/static/media/dailyui.189a0955.png"
+  },
+  {
+    "revision": "88cb28eddaf2cd7babd3a0d5aee13f20",
+    "url": "/portfolio/static/media/japan.88cb28ed.jpg"
   },
   {
     "revision": "d7848fabfff22df1c395e781da2f47d7",
